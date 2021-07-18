@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <script
+    src="https://kit.fontawesome.com/3ce17028e6.js"
+    crossorigin="anonymous"
+  ></script>
+  <link rel="stylesheet" href="../Stylesheets/project_styles.css" />
+    <nav id="navbar">
+        <div class="initial">G.</div>
+        <ul class="navbar-links">
+          <li data-toggle="tooltip" title="Home" data-placement="right" class="navbar-link">
+            <a href="./index.html" class="navbar-anchor"><i class="fas fa-home"></i></a>
+          </li>
+          <li data-toggle="tooltip" title="About me" data-placement="right" class="navbar-link">
+            <a href="../Html/about.html" class="navbar-anchor"
+              ><i class="fas fa-user-alt"></i
+            ></a>
+          </li>
+          <li data-toggle="tooltip" title="Projects" data-placement="right" class="navbar-link">
+            <a href="../Html/projects.html" class="navbar-anchor"
+              ><i class="fas fa-project-diagram"></i
+            ></a>
+          </li>
+          </li>
+          <li data-toggle="tooltip" title="Testimonials" data-placement="right" class="navbar-link">
+            <a href="../Html/testimonial.html" class="navbar-anchor"><i class="fas fa-scroll"></i></a>
+          </li>
+          <li data-toggle="tooltip" title="Contact" data-placement="right" class="navbar-link">
+            <a href="../Html/contactform.html" class="navbar-anchor"><i class="fab fa-wpforms"></i></a>
+          </li>
+        </ul>
+        <!-- <button class="navbar-button" onclick="toggleNavbar()"><i class="fas fa-bars"></i></button> -->
+      </nav>
+</head>
+<body>
+    <section class="project_items">
+        <div class="mainheading">
+            <h2 class="section_title">My <span class="color_name">Projects</span></h2>
+            <p class="info"> Down below is the projects I have created being here @Lifechoices.</p><p class="info"> Check it out they waiting on you to be viewed! Let me know in the form section the what you thing if them :).</p>
+          <div class="button-container" data-filter="*">
+            <button class="btn_style"  onclick="filterCards('All')" data-filter="All">All</button>
+            <button class="btn_style" onclick="filterCards('Html/CSS')" data-filter="All">HTML/CSS</button>
+            <button class="btn_style" onclick="filterCards('Python')" data-filter="All">Python</button>
+          </div>
+      
+          <div class="cardcontainer">
+            <!-- <div class="Cards 1">
+              
+           <img class="projectimg" src="../images/Screenshot_2021-05-04 Contact Form.png" alt="Photo"/>
+           <div class="image-overlay">
+            <p class="decrip-tion">Making a new discovery I found glass Glassmorphism to create this form. </p>
+           </div>
+              <div class="card-items"> 
+                      <h2>HTML/CSS</h2>
+                      <h3>ContactForm</h3>
+                </div>
+                <div class="button-2">
+                      <button class="button1"><a class="button-1" href="https://github.com/Gary35-bot/first-Contact-from-created" target="_blank"><p class="gitlink">Github</p></a></button>
+                      <button class="button1"><a class="button-1" href= "https://agitated-kepler-cb2c57.netlify.app/" target="_blank"><p class="gitlink">Live</p></a></button> 
+                </div>
+              </div>
+       
+              <div class="Cards 2">
+               
+                  <img class="projectimg" src="../images/Screenshot_2021-05-04 My timeline.png" alt="Photo"/>
+                  <div class="image-overlay">
+                      <p class="decrip-tion">This is a timeline I created using aos-animation </p>
+                  </div>
+                  <div class="card-items"> 
+                      <h2>HTML/CSS</h2>
+                      <h3>TimeLine</h3>     
+                  </div>
+                  <div class="button-2">
+                  <button class="button1"><a class="button-1" href="https://github.com/Gary35-bot/First-timeline" target="_blank"><p class="gitlink">Github</p></a></button>
+                  <button class="button1"><a class="button-1" href="https://admiring-bardeen-57658c.netlify.app/" target="_blank"><p class="gitlink">Live</p></a></button> 
+               </div>
+              </div>
+      
+                <div class="Cards 3">
+                <img class="projectimg" src="../images/Screenshot_2021-05-04 Testimonial slider.png" alt="Photo"/>
+                <div class="image-overlay">
+                  <p class="decrip-tion">I used owl-carousel to create these testimonials. </p>
+              </div>
+                   <div class="card-items"> 
+                           <h2>HTML/CSS</h2>
+                           <h3>Testimonial-Slider</h3>
+                     </div>
+                     <div class="button-2">
+                           <button class="button1"><a class="button-1" href="https://github.com/Gary35-bot/Testomonial-slider" target="_blank"><p class="gitlink">Github</p></a></button>
+                           <button class="button1"><a class="button-1" href="https://wizardly-clarke-0f2d34.netlify.app/" target="_blank"><p class="gitlink">Live</p></a></button> 
+                     </div>
+                   </div>
+
+                   <div class="Cards 4">
+                    <img class="projectimg" src="../images/sneakersite.png" alt="Photo"/>
+                    <div class="image-overlay">
+                      <p class="decrip-tion">This sneaker-site me and my group put together making it as one.</p>
+                  </div>
+                    <div class="card-items"> 
+                        <h2>HTML/CSS</h2>
+                        <h3>Sneakersite</h3>
+                    </div>
+                    <div class="button-2">
+                    <button class="button1"><a class="button-1" href="" ><p class="gitlink">Github</p></a></button>
+                    <button class="button1"><a class="button-1" href="https://relaxed-saha-d93563.netlify.app/" target="_blank"><p class="gitlink">Live</p></a></button> 
+                 </div>
+                </div>
+
+                <div class="Cards 5">
+                  <img class="projectimg" src="../images/tkinter-program.png" alt=""/>
+                  <div class="image-overlay">
+                    <p class="decrip-tion">This application is basically used to plus 2 diffrent number together.</p>
+                </div>
+                  <div class="card-items"> 
+                      <h2>Python</h2>
+                      <h3>tKinter-program</h3>
+                  </div>
+                  <div class="button-2">
+                  <button class="button1"><a class="button-1" href="https://github.com/Gary35-bot/tkinter-program" target="_blank"><p class="gitlink">Github</p></a></button>
+                  <button class="button1"><a class="button-1" href="https://replit.com/@Gary35bot/UntriedThisSdk#main.py" target="_blank"><p class="gitlink">Live</p></a></button> 
+               </div>
+              </div>
+
+              <div class="Cards 6">
+                <img class="projectimg" src="../images/tempreture-Converter.png" alt="Photo"/>
+                <div class="image-overlay">
+                  <p class="decrip-tion">Tempreture Converter I build to convert fahrenheit to celsius vice versa </p>
+              </div>
+                <div class="card-items"> 
+                    <h2>Python</h2>
+                    <h3>Tempreture-Converter</h3>
+                </div>
+                <div class="button-2">
+                <button class="button1"><a class="button-1" href="https://github.com/Gary35-bot/calculation-of-cel-and-fan/blob/main/main.py" target="_blank"><p class="gitlink">Github</p></a></button>
+                <button class="button1"><a class="button-1" href="https://replit.com/@Gary35bot/Tempreture#main.py" target="_blank"><p class="gitlink">Live</p></a></button> 
+             </div>
+            </div> 
+
+          </div> -->
+      </div>
+    </section>
+    <script src="../Javascript/button.js"></script>
+</body>
+</html>
