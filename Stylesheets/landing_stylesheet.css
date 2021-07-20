@@ -192,7 +192,7 @@ a {
   }
   .navbar-button {
     display: block;
-    position: fixed;
+    position: relative;
     top: 20px;
     right: 20px;
     z-index: 100;
@@ -203,13 +203,16 @@ a {
 
   .heading {
     font-size: 20px;
+    position: fixed;
   }
 
   .name {
     font-size: 40px;
     color: white;
+    position: fixed;
   }
   .mytitle {
     font-size: 15px;
+    position: fixed;
   }
 }
