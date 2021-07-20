@@ -420,13 +420,17 @@ h3 {
   .navbar-button {
     display: block;
     position: fixed;
-    top: 20px;
-    right: 20px;
+    top: 0;
+    right: 0;
     z-index: 100;
-    font-size: 18px;
+    font-size: 40px;
+    background-color: black;
+    color: #f68338;
+    animation: reverse;
+    text-decoration: none;
+    border-radius: 1px;
     display: flex;
   }
-
   .heading {
     font-size: 20px;
   }
@@ -436,19 +440,17 @@ h3 {
     color: white;
   }
   .mytitle {
-    font-size: 15px;
+    font-size: 18px;
   }
   .section_title {
-    font-size: 25px;
-   
-    
+    font-size: 25px; 
   }
   .backgroundcard {
     display: flex;
     flex-direction: column;
     margin: 70px;
     padding: 20px;
-    width: 300px;
+    width: 340px;
   }
   .link {
     font-size: 40px;
@@ -468,19 +470,28 @@ h3 {
     height: 250px;
     object-position: -100px;
     border: none;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .subheading {
-    font-size: 18px;
+    font-size: 25px;
     display: flex;
     justify-content: center;
   }
   .subheading-1 {
-    font-size: 18px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    
   }
   .subcontent {
-    font-size: 15px;
+    font-size: 20px;
     padding-left: -10px;
     margin: -5;
+    padding: 20px;
+    margin: 10px;
   }
   .landing {
     height: 640px;
@@ -504,5 +515,8 @@ h3 {
   .heading-12 {
     font-size: 20px;
     margin-top: 2%;
+  }
+  .skill{
+    width: 250px;
   }
 }

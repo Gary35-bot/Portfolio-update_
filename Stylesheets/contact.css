@@ -287,7 +287,8 @@ a {
   padding: 10px;
   color: white;
   display: flex;
-  gap: 10px;
+  gap: 5px;
+  font-size: 15px;
 }
 .navbar-anchor {
   color: white;
@@ -306,9 +307,15 @@ a {
   padding: 10px;
 }
 
-.sub-h {
-  color: white;
-}
 .form-label {
   color: white;
+}
+.subhed {
+  font-size: 20px;
+  color: white;
+}
+.sub2 {
+  color: white;
+  font-size: 15px;
+  padding: 10px;
 }

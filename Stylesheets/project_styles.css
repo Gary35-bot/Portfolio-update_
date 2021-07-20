@@ -325,3 +325,101 @@ a {
   text-decoration: none;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 800px) {
+  body{
+    height: 50vh;
+  }
+  #navbar {
+    left: -100%;
+  }
+
+  #navbar.active {
+    left: 0;
+  }
+  .navbar-button {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    font-size: 40px;
+    background-color: black;
+    color: #f68338;
+    animation: reverse;
+    text-decoration: none;
+    border-radius: 1px;
+    display: flex;
+  
+  }
+
+  .heading {
+    font-size: 20px;
+  }
+
+  .name {
+    font-size: 40px;
+    color: white;
+  }
+  .mytitle {
+    font-size: 18px;
+  }
+  .section_title {
+    font-size: 25px; 
+  }
+  .backgroundcard {
+    display: flex;
+    flex-direction: column;
+    margin: 70px;
+    padding: 20px;
+    width: 340px;
+  }
+  .link {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .heading {
+    font-size: 20px;
+  }
+  .subheading {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+  }
+  .subheading-1 {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .subcontent {
+    font-size: 20px;
+    padding-left: -10px;
+    margin: -5;
+    padding: 20px;
+    margin: 10px;
+  }
+  .cardcontainer {
+    margin: 0;
+  }
+  .info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    line-height: 1.0;
+  }
+  .projectimg {
+    height: 250px;
+    width: 300px;
+    object-fit: fill;
+    border-radius: 1px;
+  }
+
+ 
+}
