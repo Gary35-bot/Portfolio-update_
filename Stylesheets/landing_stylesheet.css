@@ -198,6 +198,7 @@ a {
     z-index: 100;
     font-size: 18px;
     display: flex;
+    margin: 40px;
   }
 
   .heading {
