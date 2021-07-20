@@ -136,10 +136,6 @@ body {
 /* nav bar style button */
 .navbar-button {
   display: none;
-  text-decoration: none;
-  font-size: 10px;
-  color: black;
-  transition: ease-in-out red 0.5s;
 }
 
 /* styles of homepage icons/footer */
@@ -190,11 +186,16 @@ a {
   .navbar-button {
     display: block;
     position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 10;
-    font-size: 18px;
-    margin: 40px;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    font-size: 40px;
+    background-color: black;
+    color: #f68338;
+    animation: reverse;
+    text-decoration: none;
+    border-radius: 1px;
+    display: flex;
   }
 
   .heading {
