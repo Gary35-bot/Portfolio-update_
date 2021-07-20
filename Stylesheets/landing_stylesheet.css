@@ -18,7 +18,7 @@ body {
 #navbar {
   display: flex;
   flex-direction: column;
-  background-color: #F68338;
+  background-color: #f68338;
   justify-content: center;
   align-items: flex-start;
   transition: all 0.3 linear;
@@ -96,7 +96,7 @@ body {
 }
 
 .color_name {
-  color: #F68338;
+  color: #f68338;
 }
 
 .mytitle {
@@ -168,8 +168,47 @@ body {
 }
 
 .icons-footer:hover {
-  background-color: #F68338;
+  background-color: #f68338;
 }
 a {
   text-decoration: none;
+}
+
+.navbar-button {
+  text-decoration: none;
+  font-size: 10px;
+  color: black;
+  transition: ease-in-out red 0.5s;
+}
+
+@media screen and (max-width: 800px) {
+  #navbar {
+    left: -100%;
+    transition: all 0.3s linear;
+  }
+
+  #navbar.active {
+    left: 0;
+  }
+  .navbar-button {
+    display: block;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    font-size: 18px;
+    display: flex;
+  }
+
+  .heading {
+    font-size: 20px;
+  }
+
+  .name {
+    font-size: 40px;
+    color: white;
+  }
+  .mytitle {
+    font-size: 15px;
+  }
 }

@@ -405,3 +405,104 @@ h3 {
 .emtyspace {
   height: 200px;
 }
+
+@media screen and (max-width: 800px) {
+  body{
+    height: 50vh;
+  }
+  #navbar {
+    left: -100%;
+  }
+
+  #navbar.active {
+    left: 0;
+  }
+  .navbar-button {
+    display: block;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    font-size: 18px;
+    display: flex;
+  }
+
+  .heading {
+    font-size: 20px;
+  }
+
+  .name {
+    font-size: 40px;
+    color: white;
+  }
+  .mytitle {
+    font-size: 15px;
+  }
+  .section_title {
+    font-size: 25px;
+   
+    
+  }
+  .backgroundcard {
+    display: flex;
+    flex-direction: column;
+    margin: 70px;
+    padding: 20px;
+    width: 300px;
+  }
+  .link {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .heading {
+    font-size: 20px;
+  }
+
+  .aboutimg {
+    width: 250px;
+    height: 250px;
+    object-position: -100px;
+    border: none;
+  }
+  .subheading {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+  }
+  .subheading-1 {
+    font-size: 18px;
+  }
+  .subcontent {
+    font-size: 15px;
+    padding-left: -10px;
+    margin: -5;
+  }
+  .landing {
+    height: 640px;
+    width: 100vw;
+  }
+  .ResumeContainer {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+  }
+
+  .Resume-1 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 5px;
+  }
+  .heading-12 {
+    font-size: 20px;
+    margin-top: 2%;
+  }
+}
