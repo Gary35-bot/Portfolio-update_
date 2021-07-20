@@ -136,6 +136,8 @@ body {
 /* nav bar style button */
 .navbar-button {
   display: none;
+  background: none;
+
 }
 
 /* styles of homepage icons/footer */
@@ -192,10 +194,10 @@ a {
   }
   .navbar-button {
     display: block;
-    position: relative;
+    position: fixed;
     top: 20px;
     right: 20px;
-    z-index: 100;
+    z-index: 10;
     font-size: 18px;
     display: flex;
     margin: 40px;
@@ -203,16 +205,12 @@ a {
 
   .heading {
     font-size: 20px;
-    position: fixed;
   }
 
   .name {
     font-size: 40px;
-    color: white;
-    position: fixed;
   }
   .mytitle {
     font-size: 15px;
-    position: fixed;
   }
 }
