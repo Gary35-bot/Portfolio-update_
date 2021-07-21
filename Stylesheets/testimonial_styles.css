@@ -271,4 +271,83 @@ a {
   line-height: 1;
 }
 
+@media screen and (max-width: 800px) {
+  body {
+    height: 50vh;
+  }
+  #navbar {
+    left: -100%;
+  }
 
+  #navbar.active {
+    left: 0;
+  }
+  .navbar-button {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    font-size: 40px;
+    background-color: black;
+    color: #f68338;
+    animation: reverse;
+    text-decoration: none;
+    border-radius: 1px;
+    display: flex;
+  }
+  .heading {
+    font-size: 20px;
+  }
+
+  .name {
+    font-size: 40px;
+    color: white;
+  }
+  .mytitle {
+    font-size: 18px;
+  }
+  .section_title {
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+  }
+  .backgroundcard {
+    display: flex;
+    flex-direction: column;
+    margin: 70px;
+    padding: 20px;
+    width: 340px;
+  }
+  .link {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    align-items: center;
+    padding: 20px;
+  }
+  .slide {
+    width: auto;
+    max-width: 100%;
+    text-align: center;
+    height: 450px;
+    margin-top: 5%;
+  }
+
+  .owl-stage {
+    display: flex;
+    place-items: center;
+  }
+
+  .owl-carousel {
+    margin-left: 18%;
+  }
+  .persons {
+    display: block;
+    object-fit: fill;
+    align-items: center;
+    height: 250px;
+  }
+}
