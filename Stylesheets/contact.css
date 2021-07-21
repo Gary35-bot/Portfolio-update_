@@ -320,6 +320,7 @@ a {
   padding: 10px;
 }
 
+
 @media screen and (max-width: 800px) {
   body {
     height: 50vh;
@@ -360,7 +361,7 @@ a {
     font-size: 25px;
     justify-content: center;
     align-items: center;
-    margin-left: 40%;
+    margin-right: 10%;
   }
   .backgroundcard {
     display: flex;
@@ -380,32 +381,52 @@ a {
   .ContactInfo {
     width: 250px;
     margin-bottom: 20px;
-    margin-left: 10%;
   }
   .container-0 {
     display: flex;
     padding: 10pc;
     margin: 30px;
     flex-direction: column;
-    width: auto;
     max-width: 100%;
-    margin-bottom: 50%;
+    margin-bottom: -250%;
+    margin-right: 100%;
+    justify-content: center;
+    align-items: center;
   }
   .contact-form {
-   width: auto;
-   max-width: 100%;
-   padding: 20px;
+    width: auto;
+    max-width: 100%;
+    padding: 20px;
+    margin-left: 28%;
   }
   .form-input {
     width: 200px;
     color: white;
-    margin-right: 10%;
+    margin-left: 100%;
+    font-size: 18px;
   }
-  .btn-move{
+  .btn-move {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 50%;
+    font-size: 10px;
+  }
+  .btn {
+    padding: 5px;
+    font-size: 10px;
+    display: flex;
+    margin: 50%;
+    margin-left: 150%;
   }
 
+  #form-group1 {
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+    margin: 5%;
+    display: flex;
+    margin-left: -220%;
+  }
 }

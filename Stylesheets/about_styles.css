@@ -412,6 +412,7 @@ h3 {
   }
   #navbar {
     left: -100%;
+    z-index: 50;
   }
 
   #navbar.active {
@@ -466,9 +467,9 @@ h3 {
   }
 
   .aboutimg {
-    width: 250px;
-    height: 250px;
-    object-position: -100px;
+    width: 300px;
+    height: 300px;
+    object-position: -130px;
     border: none;
     object-fit: cover;
     display: flex;
@@ -487,10 +488,9 @@ h3 {
   }
   .subcontent {
     font-size: 20px;
-    padding-left: -10px;
-    margin: -5;
     padding: 20px;
     margin: 10px;
+    width: 300px;
   }
   .landing {
     height: 640px;
@@ -517,5 +517,8 @@ h3 {
   }
   .skill {
     width: 250px;
+  }
+  .description {
+    margin-left: -14%;
   }
 }

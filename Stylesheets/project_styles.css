@@ -327,11 +327,12 @@ a {
 }
 
 @media screen and (max-width: 800px) {
-  body{
+  body {
     height: 50vh;
   }
   #navbar {
     left: -100%;
+    z-index: 50;
   }
 
   #navbar.active {
@@ -350,7 +351,6 @@ a {
     text-decoration: none;
     border-radius: 1px;
     display: flex;
-  
   }
 
   .heading {
@@ -365,7 +365,7 @@ a {
     font-size: 18px;
   }
   .section_title {
-    font-size: 25px; 
+    font-size: 25px;
   }
   .backgroundcard {
     display: flex;
@@ -395,7 +395,6 @@ a {
     font-size: 25px;
     display: flex;
     justify-content: center;
-    
   }
   .subcontent {
     font-size: 20px;
@@ -407,12 +406,12 @@ a {
   .cardcontainer {
     margin: 0;
   }
-  .info{
+  .info {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 10px;
-    line-height: 1.0;
+    line-height: 1;
   }
   .projectimg {
     height: 250px;
@@ -420,6 +419,4 @@ a {
     object-fit: fill;
     border-radius: 1px;
   }
-
- 
 }

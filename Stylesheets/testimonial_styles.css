@@ -277,6 +277,7 @@ a {
   }
   #navbar {
     left: -100%;
+    z-index: 50;
   }
 
   #navbar.active {
@@ -311,7 +312,7 @@ a {
     font-size: 25px;
     justify-content: center;
     align-items: center;
-    margin-left: 30%;
+    margin-right: -10%;
   }
   .backgroundcard {
     display: flex;
@@ -342,12 +343,19 @@ a {
   }
 
   .owl-carousel {
-    margin-left: 18%;
+    margin-right: -200%;
   }
   .persons {
     display: block;
     object-fit: fill;
     align-items: center;
     height: 250px;
+  }
+  .content {
+    height: 222px;
+  }
+  .main-item {
+    margin-left: -0%;
+    max-width: 100%;
   }
 }
