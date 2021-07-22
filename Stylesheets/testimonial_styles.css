@@ -290,12 +290,12 @@ a {
     right: 0;
     z-index: 100;
     font-size: 40px;
-    background-color: black;
+    background: none;
     color: #f68338;
     animation: reverse;
     text-decoration: none;
-    border-radius: 1px;
     display: flex;
+    border: none;
   }
   .heading {
     font-size: 20px;
