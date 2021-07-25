@@ -264,7 +264,7 @@ a {
   box-shadow: 0 5px 20px black;
 }
 .button1:hover {
-  transition: ease-in 1s 5ms;
+  transition: ease-in 0s 6ms;
   background-color: #f68338;
 }
 .gitlink {
@@ -313,10 +313,12 @@ a {
   background: #000000;
   font-weight: 500;
   color: #ffffff;
-  border-radius: 40px;
+  border-radius: 5px;
   cursor: pointer;
-  display: list-item;
   text-transform: uppercase;
+  background: rgba(8, 8, 8, 0.25);
+  box-shadow: 0 5px 20px black;
+  border: none;
 }
 
 .btn_style:hover {

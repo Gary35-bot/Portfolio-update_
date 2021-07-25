@@ -253,8 +253,10 @@ a {
   outline: none;
   background: none;
   border-bottom: 1px solid #f68338;
-  width: 450px;
+  width: 400px;
   color: white;
+  font-size: 15px;
+  line-height: 1.6;
 }
 
 .btn:hover {
