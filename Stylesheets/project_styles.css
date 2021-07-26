@@ -232,10 +232,15 @@ a {
   place-items: center;
   align-items: center;
 }
+.image-size {
+  position: relative;
+  object-fit: cover;
+  height: 250px;
+  width: 300px;
+}
 .projectimg {
   height: 250px;
   width: 300px;
-  object-fit: fill;
   border-radius: 1px;
   position: relative;
 }
