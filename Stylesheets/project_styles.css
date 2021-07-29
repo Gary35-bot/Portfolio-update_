@@ -203,7 +203,6 @@ a {
   padding: 10px;
   justify-content: center;
   align-items: center;
-  margin-top: 1%;
   margin-right: 50px;
 }
 .Cards {
@@ -211,13 +210,18 @@ a {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 20px;
-  margin: 20px;
-  height: 400px;
-  width: 300px;
-  display: grid;
+  height: 90%;
+  display: flex;
   justify-content: center;
   flex-direction: column;
   position: relative;
+  gap: 5px;
+  width: 25%;
+  margin: 1%;
+}
+.image-size {
+  width: 100%;
+  height: 100%;
 }
 
 .card-items {
@@ -228,19 +232,15 @@ a {
   border: 1px solid rgba(255, 255, 255, 0.18);
   display: flex;
   justify-content: center;
-  display: grid;
-  place-items: center;
   align-items: center;
+  padding: 10px;
+  flex-direction: column;
 }
-.image-size {
-  position: relative;
-  object-fit: cover;
-  height: 250px;
-  width: 300px;
-}
+
 .projectimg {
   height: 250px;
-  width: 300px;
+  width: 100%;
+  object-fit: cover;
   border-radius: 1px;
   position: relative;
 }
@@ -284,7 +284,7 @@ a {
 .image-overlay {
   position: absolute;
   height: 250px;
-  width: 300px;
+  width: 286px;
   background: rgba(0, 0, 0, 0.6);
   color: #ffffff;
   flex-direction: column;

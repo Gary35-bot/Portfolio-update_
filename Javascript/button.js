@@ -46,14 +46,14 @@ let cards = [
   },
 
   {
-    imgURL: "../images/tkinter-program.png",
+    imgURL: "../images/weather2.png",
     imgALT: "Photo",
-    title: "tKinter-program",
+    title: "Weather App",
     techStack: "Python",
     description:
-      "This sneaker-site me and my group put together making it as one.",
-    githubURL: "https://github.com/Gary35-bot/tkinter-program",
-    liveURL: "https://replit.com/@Gary35bot/UntriedThisSdk#main.py",
+      "Created a weather app  use API.",
+    githubURL: "https://github.com/Gary35-bot/Weather-App",
+    liveURL: "https://replit.com/@Gary35bot/weather-App#main.py",
   },
   {
     imgURL: "../images/tempreture-Converter.png",
@@ -62,8 +62,8 @@ let cards = [
     techStack: "Python",
     description:
       "Tempreture Converter I build to convert fahrenheit to celsius vice versa ",
-    githubURL: "https://github.com/Gary35-bot/tkinter-program",
-    liveURL: "https://replit.com/@Gary35bot/UntriedThisSdk#main.py",
+    githubURL: "https://github.com/Gary35-bot/calculation-of-cel-and-fan/blob/main/main.py",
+    liveURL: "https://replit.com/@Gary35bot/Tempreture#main.py",
   },
 ];
 
