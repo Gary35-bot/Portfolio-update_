@@ -290,18 +290,15 @@ a {
   grid-row: 4;
 }
 .Resume1 {
-  background: linear-gradient(
-    135deg,
-    rgba(246, 131, 56, 1) 0%,
-    rgba(252, 103, 103, 1) 100%
-  );
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  background: rgba(8, 8, 8, 0.25);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   margin: 20px;
   padding: 10px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12), 0 10px 10px rgba(0, 0, 0, 0.22);
+  color: white;
 }
 
 /* skill section */
