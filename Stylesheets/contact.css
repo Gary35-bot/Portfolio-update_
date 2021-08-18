@@ -7,13 +7,13 @@
 body {
   font-family: sans-serif;
   height: 80vh;
-  background-color: #343a40;
+  background-color: #1A1A1D;
 }
 /* nav bar styles  */
 #navbar {
   display: flex;
   flex-direction: column;
-  background-color: #f68338;
+  background-color: #6F2232;
   justify-content: center;
   align-items: flex-start;
   transition: all 0.3 linear;
@@ -91,7 +91,7 @@ body {
 }
 
 .color_name {
-  color: #f68338;
+  color: #C3073F;
 }
 
 .mytitle {
@@ -195,7 +195,7 @@ a {
   display: flex;
 }
 .ContactInfo {
-  background: #070708;
+  background: #4E4E50;
   backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
   border-radius: 10px;
@@ -253,7 +253,7 @@ a {
   border: none;
   outline: none;
   background: none;
-  border-bottom: 1px solid #f68338;
+  border-bottom: 2px solid #4e4e50;
   width: 400px;
   color: white;
   font-size: 15px;
@@ -268,7 +268,7 @@ a {
   padding: 10px;
 }
 .btn {
-  background-color: #f68338;
+  background-color: #950740;
   padding: 10px;
   border: none;
   border-radius: 10px;
@@ -276,6 +276,7 @@ a {
   display: flex;
   justify-content: center;
   margin-top: 290px;
+  color: #1A1A1D;
 }
 
 .contact-form {

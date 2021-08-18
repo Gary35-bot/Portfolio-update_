@@ -6,13 +6,13 @@
 
 body {
   font-family: sans-serif;
-  background-color: #343a40;
+  background-color: #1A1A1D;
 }
 /* nav bar styles  */
 #navbar {
   display: flex;
   flex-direction: column;
-  background-color: #f68338;
+  background-color: #6F2232;
   justify-content: center;
   align-items: flex-start;
   transition: all 0.3 linear;
@@ -90,7 +90,7 @@ body {
 }
 
 .color_name {
-  color: #f68338;
+  color: #C3073F;
 }
 
 .mytitle {
@@ -224,7 +224,7 @@ a {
 }
 
 .card-items {
-  background: #f68338;
+  background: #C3073F;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 1px;

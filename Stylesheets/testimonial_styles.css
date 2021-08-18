@@ -7,13 +7,13 @@
 body {
   font-family: sans-serif;
   height: 100vh;
-  background-color: #343a40;
+  background-color: #1A1A1D;
 }
 /* nav bar styles  */
 #navbar {
   display: flex;
   flex-direction: column;
-  background-color: #f68338;
+  background-color: #6F2232;
   justify-content: center;
   align-items: flex-start;
   transition: all 0.3 linear;
@@ -94,7 +94,7 @@ body {
 }
 
 .color_name {
-  color: #f68338;
+  color: #C3073F;
 }
 
 .mytitle {
@@ -203,7 +203,7 @@ a {
 }
 
 .slide {
-  background: #000000;
+  background: #4E4E50;
   backdrop-filter: blur(10.5px);
   max-width: 80%;
   display: grid;

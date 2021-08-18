@@ -18,7 +18,7 @@ body {
 #navbar {
   display: flex;
   flex-direction: column;
-  background-color: #f68338;
+  background-color: #6f2232;
   justify-content: center;
   align-items: flex-start;
   transition: all 0.3 linear;
@@ -170,7 +170,7 @@ body {
 }
 
 .color_name {
-  color: #f68338;
+  color: #c3073f;
 }
 
 .mytitle {
@@ -272,7 +272,7 @@ body {
 }
 
 .icons-footer:hover {
-  background-color: #f68338;
+  background-color: #4e4e50;
 }
 a {
   text-decoration: none;

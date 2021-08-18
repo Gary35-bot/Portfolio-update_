@@ -7,14 +7,14 @@
 body {
   font-family: sans-serif;
   height: 100vh;
-  background-color: #343a40;
+  background-color: #1a1a1d;
   scroll-behavior: smooth;
 }
 /* nav bar styles  */
 #navbar {
   display: flex;
   flex-direction: column;
-  background-color: #f68338;
+  background-color: #6F2232;
   justify-content: center;
   align-items: flex-start;
   transition: all 0.3 linear;
@@ -92,7 +92,7 @@ body {
 }
 
 .color_name {
-  color: #f68338;
+  color: #c3073f;
 }
 
 .mytitle {
@@ -186,16 +186,18 @@ a {
 }
 
 .backgroundcard {
-  margin: 100px;
-  padding: 50px;
   display: flex;
   flex-wrap: center;
   justify-content: center;
+  margin-left: 140px;
   background: rgba(0, 0, 0, 1);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border-radius: 10px;
+  border-radius: 5px;
   max-height: 500%;
+  width: 80%;
+  padding: 5px;
+  margin-top: 20px;
 }
 .aboutimg {
   height: 520px;
@@ -205,8 +207,7 @@ a {
   background: rgba(24, 23, 23, 1);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border-radius: 10px;
-  border: 5px solid rgba(255, 255, 255, 0.18);
+  border-radius: 2px;
 }
 
 .subheading {
@@ -246,7 +247,7 @@ a {
 /* work_xp */
 .Resume-1 {
   width: 2%;
-  background-color: black;
+  background-color: #4e4e50;
   height: 100%;
   padding: 5%;
   grid-row-start: 1;
@@ -310,7 +311,7 @@ h3 {
 .skill {
   width: 500px;
   margin: 50px auto;
-  color: #fff;
+  color: #4e4e50;
   padding: 20px;
   box-shadow: 0 14px 28px rgb(0, 0, 0, 0.25), 0 10px 10px rgb(0, 0, 0, 0.22);
 }
@@ -341,7 +342,7 @@ h3 {
   float: left;
   background: linear-gradient(
     135deg,
-    rgba(246, 131, 56, 1) 0%,
+    rgba(149, 7, 64) 0%,
     rgba(252, 103, 103, 1) 100%
   );
 }
