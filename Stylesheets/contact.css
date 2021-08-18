@@ -7,13 +7,13 @@
 body {
   font-family: sans-serif;
   height: 80vh;
-  background-color: #1A1A1D;
+  background-color: #1a1a1d;
 }
 /* nav bar styles  */
 #navbar {
   display: flex;
   flex-direction: column;
-  background-color: #6F2232;
+  background-color: #6f2232;
   justify-content: center;
   align-items: flex-start;
   transition: all 0.3 linear;
@@ -41,6 +41,7 @@ body {
   padding: 0.5em 0.6em;
   display: flex;
   padding: 10px;
+  text-decoration: none;
 }
 
 .navbar-link {
@@ -91,7 +92,7 @@ body {
 }
 
 .color_name {
-  color: #C3073F;
+  color: #c3073f;
 }
 
 .mytitle {
@@ -162,12 +163,6 @@ body {
   vertical-align: middle;
 }
 
-.icons-footer:hover {
-  background-color: #f68338;
-}
-a {
-  text-decoration: none;
-}
 /* End */
 
 /* titles of sections */
@@ -195,12 +190,13 @@ a {
   display: flex;
 }
 .ContactInfo {
-  background: #4E4E50;
+  background: #4e4e50;
   backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
-  border-radius: 10px;
+  border-radius: 5px;
   flex-direction: row;
   justify-content: center;
+  height: 250px;
   /* margin: 5%; */
 }
 .container {
@@ -211,8 +207,6 @@ a {
 }
 .container-0 {
   display: flex;
-  /* padding: 10pc;
-  margin: 30px; */
   justify-content: center;
   align-items: center;
   margin-top: 30px;
@@ -276,7 +270,7 @@ a {
   display: flex;
   justify-content: center;
   margin-top: 290px;
-  color: #1A1A1D;
+  color: #1a1a1d;
 }
 
 .contact-form {

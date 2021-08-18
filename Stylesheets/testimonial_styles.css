@@ -7,13 +7,13 @@
 body {
   font-family: sans-serif;
   height: 100vh;
-  background-color: #1A1A1D;
+  background-color: #1a1a1d;
 }
 /* nav bar styles  */
 #navbar {
   display: flex;
   flex-direction: column;
-  background-color: #6F2232;
+  background-color: #6f2232;
   justify-content: center;
   align-items: flex-start;
   transition: all 0.3 linear;
@@ -94,7 +94,7 @@ body {
 }
 
 .color_name {
-  color: #C3073F;
+  color: #c3073f;
 }
 
 .mytitle {
@@ -203,7 +203,7 @@ a {
 }
 
 .slide {
-  background: #4E4E50;
+  background: #4e4e50;
   backdrop-filter: blur(10.5px);
   max-width: 80%;
   display: grid;
@@ -230,6 +230,7 @@ a {
   font-size: 20px;
   justify-content: center;
   align-items: center;
+  color: #c3073f;
 }
 
 .head {
@@ -295,7 +296,7 @@ a {
     z-index: 100;
     font-size: 40px;
     background: none;
-    color: #f68338;
+
     animation: reverse;
     text-decoration: none;
     display: flex;
