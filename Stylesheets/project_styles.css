@@ -210,14 +210,13 @@ a {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 20px;
-  height: 90%;
+  margin: 20px;
+  height: 400px;
+  width: 300px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   position: relative;
-  gap: 5px;
-  width: 25%;
-  margin: 1%;
 }
 .image-size {
   width: 100%;
@@ -261,7 +260,6 @@ a {
   border-radius: 5px;
   border: none;
   width: 100px;
-  display: flex;
   justify-content: center;
   align-items: center;
   font-size: 15px;
@@ -284,7 +282,7 @@ a {
 .image-overlay {
   position: absolute;
   height: 250px;
-  width: 286px;
+  width: 100%;
   background: rgba(0, 0, 0, 0.6);
   color: #ffffff;
   flex-direction: column;
@@ -335,7 +333,7 @@ a {
 
 @media screen and (max-width: 800px) {
   body {
-    height: 50vh;
+    height: 100vh;
   }
   #navbar {
     left: -100%;
@@ -373,6 +371,7 @@ a {
   }
   .section_title {
     font-size: 25px;
+    margin-left: 45%;
   }
   .backgroundcard {
     display: flex;
@@ -380,6 +379,7 @@ a {
     margin: 70px;
     padding: 20px;
     width: 340px;
+    align-items: center;
   }
   .link {
     font-size: 40px;
@@ -411,7 +411,17 @@ a {
     margin: 10px;
   }
   .cardcontainer {
-    margin: 0;
+    margin: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 100%;
   }
   .info {
     display: flex;
@@ -425,5 +435,19 @@ a {
     width: 300px;
     object-fit: fill;
     border-radius: 1px;
+  }
+  .card-items {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-left: 288px;
+  }
+  h2 {
+    display: flex;
+    align-items: center;
+    margin-right: 18pc;
+  }
+  h3 {
+    margin-right: 18pc;
   }
 }

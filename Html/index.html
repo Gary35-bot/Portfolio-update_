@@ -42,6 +42,12 @@
       </nav>
   </head>
   <body>
+    <!-- loader -->
+    <div class="row cf">
+      <div class="three col">
+        <div class="loader" id="loader-1"></div>
+      </div>
+    </div>
       <!-- details of the homepage -->
       <landing id="homepage"> 
           <h4 class="heading">Hello I'm</h4>
@@ -61,4 +67,9 @@
       <script class="js-button" src="../Javascript/button.js"></script> 
 
   </body>
+  <script>
+    $(window).on("loader1", function(){
+      $(".loader").fadeOut("slow");
+    });
+  </script>
 </html>

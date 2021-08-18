@@ -115,3 +115,4 @@ function filterCards(catergory) {
     card.style.display = "block";
   }
 }
+
