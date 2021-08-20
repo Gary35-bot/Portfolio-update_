@@ -50,8 +50,7 @@ let cards = [
     imgALT: "Photo",
     title: "Weather App",
     techStack: "Python",
-    description:
-      "Created a weather app  use API.",
+    description: "Created a weather app  use API.",
     githubURL: "https://github.com/Gary35-bot/Weather-App",
     liveURL: "https://replit.com/@Gary35bot/weather-App#main.py",
   },
@@ -62,7 +61,8 @@ let cards = [
     techStack: "Python",
     description:
       "Tempreture Converter I build to convert fahrenheit to celsius vice versa ",
-    githubURL: "https://github.com/Gary35-bot/calculation-of-cel-and-fan/blob/main/main.py",
+    githubURL:
+      "https://github.com/Gary35-bot/calculation-of-cel-and-fan/blob/main/main.py",
     liveURL: "https://replit.com/@Gary35bot/Tempreture#main.py",
   },
 ];
@@ -116,3 +116,14 @@ function filterCards(catergory) {
   }
 }
 
+//css/js/html button for aboutpage
+
+// const $yolo = document.querySelector(".yolo");
+// const $arrow = document.querySelector(".arrow");
+
+// $yolo.onclick = () => {
+//   $arrow.animate([{ left: "0" }, { left: "10px" }, { left: "0" }], {
+//     duration: 700,
+//     iterations: Infinity,
+//   });
+// };

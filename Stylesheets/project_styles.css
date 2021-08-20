@@ -6,13 +6,13 @@
 
 body {
   font-family: sans-serif;
-  background-color: #1A1A1D;
+  background-color: #1a1a1d;
 }
 /* nav bar styles  */
 #navbar {
   display: flex;
   flex-direction: column;
-  background-color: #6F2232;
+  background-color: #6f2232;
   justify-content: center;
   align-items: flex-start;
   transition: all 0.3 linear;
@@ -90,7 +90,7 @@ body {
 }
 
 .color_name {
-  color: #C3073F;
+  color: #c3073f;
 }
 
 .mytitle {
@@ -224,7 +224,7 @@ a {
 }
 
 .card-items {
-  background: #C3073F;
+  background: #c3073f;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 1px;
@@ -268,7 +268,7 @@ a {
 }
 .button1:hover {
   transition: ease-in 0s 6ms;
-  background-color: #f68338;
+  background-color: #c3073f;
 }
 .gitlink {
   color: white;
@@ -325,8 +325,8 @@ a {
 }
 
 .btn_style:hover {
-  transition: ease-in 1s;
-  background-color: #f68338;
+  transition: ease-in 0ms;
+  background-color: #6f2232;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -351,7 +351,6 @@ a {
     z-index: 100;
     font-size: 40px;
     background: none;
-    color: #f68338;
     animation: reverse;
     text-decoration: none;
     display: flex;
