@@ -104,39 +104,10 @@ body {
   color: white;
 }
 .main-item {
-  max-width: 90%;
+  /* max-width: 90%; */
   margin-top: 30px;
 }
 
-/* icons of nav of styles  */
-/* #navbar{
-    display: flex;
-    margin-right: 50px;
-  }
-  .navbar-icon {
-    color: white;
-    transition: ease all 0.35s;
-  }
-  .navbar-anchor {
-    color: white;
-    font-size: 20px;
-    
-  }
-  
-  }
-  .navbar-links{
-    display: flex;
-    padding: 10px;
-  }
-  .navbar-link a{
-    color: #ffffff;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 10%;
-    text-align: center;
-    transition: ease all 0.35s;
-    padding: 0.3em 0.4em;
-  } */
-/* nav bar style button */
 .navbar-button {
   display: none;
 }
@@ -279,7 +250,7 @@ a {
 
 @media screen and (max-width: 800px) {
   body {
-    height: 50vh;
+    height: 100vh;
   }
   #navbar {
     left: -100%;
@@ -295,9 +266,9 @@ a {
     top: 0;
     right: 0;
     z-index: 100;
-    font-size: 40px;
+    font-size: 32px;
     background: none;
-
+    color: #c3073f;
     animation: reverse;
     text-decoration: none;
     display: flex;
@@ -318,7 +289,6 @@ a {
     font-size: 25px;
     justify-content: center;
     align-items: center;
-    margin-right: -3%;
   }
   .backgroundcard {
     display: flex;
@@ -326,6 +296,7 @@ a {
     margin: 70px;
     padding: 20px;
     width: 340px;
+    height: 250px;
   }
   .link {
     font-size: 40px;
@@ -361,7 +332,9 @@ a {
     height: 222px;
   }
   .main-item {
-    margin-left: -6%;
+    margin-left: -2rem;
     max-width: 100%;
+    height: 80rem;
+
   }
 }
