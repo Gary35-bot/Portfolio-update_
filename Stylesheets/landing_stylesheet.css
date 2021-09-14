@@ -292,9 +292,9 @@ a {
     top: 0;
     right: 0;
     z-index: 100;
-    font-size: 40px;
+    font-size: 32px;
     background: none;
-    color: #f68338;
+    color: #c3073f;
     animation: reverse;
     text-decoration: none;
     display: flex;
