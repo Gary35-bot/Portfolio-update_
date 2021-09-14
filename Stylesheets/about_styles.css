@@ -707,7 +707,7 @@ h3 {
   }
   .section_title {
     font-size: 25px;
-    margin-left: 4rem;
+    margin-left: 0rem;
   }
   .backgroundcard {
     display: flex;
@@ -717,7 +717,7 @@ h3 {
     justify-content: center;
     align-items: center;
     margin-left: 4rem;
-    height: 120rem;
+    height: 91rem;
   }
   .link {
     font-size: 40px;
