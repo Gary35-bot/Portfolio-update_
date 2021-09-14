@@ -21,14 +21,14 @@ body {
   background-color: #6f2232;
   justify-content: center;
   align-items: flex-start;
-  transition: all 0.3 linear;
   max-width: 65px;
-  padding: 50px 10;
+  padding: 50px 10px;
   position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
-  position: fixed;
+  text-decoration: none;
+  width: 100%;
 }
 .navbar-links {
   display: flex;
@@ -37,7 +37,9 @@ body {
   gap: 20px;
   text-align: center;
   line-height: 20px;
+  list-style-type: none;
 }
+
 .navbar-links a {
   color: #ffffff;
   border-radius: 5%;
@@ -45,13 +47,16 @@ body {
   transition: ease all 0.35s;
   padding: 0.5em 0.6em;
   display: flex;
-  padding: 10px;
+  padding: 15px 15px;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 .navbar-link {
-  padding: 10px;
   text-decoration: none;
   color: white;
+  margin-left: -10px;
+  padding: 10px;
 }
 
 .navbar-anchor:hover {
